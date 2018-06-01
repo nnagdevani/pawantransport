@@ -19,7 +19,8 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
@@ -44,7 +45,7 @@
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true,
+            "showArrow": false,
             "contentAlign": "right",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -63,13 +64,18 @@
             "overlayOpacity": "0.8"
           },
           "title": "PAWAN TRANSPORT",
-          "text": "OUR NEW WEBSITE COMING SOON",
+          "text": "STAY TUNED OUR WEBSITE IS<br>COMING SOON",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header4",
-          "_anchor": "header4-0"
+          "_anchor": "header4-0",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }
